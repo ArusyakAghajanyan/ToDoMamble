@@ -1,0 +1,48 @@
+.backdrop{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.25);
+}
+.modal{
+   display: flex;
+    width: 400px;
+    height: 200px;
+    padding: 1rem;
+    background: #FFFFFF;
+    margin-top: 3rem;
+    position: absolute;
+    left: 50%;
+    top: 25%;
+    transform: translate(-50%, 0);
+    color: #008594;
+    font-size: 18px;
+    justify-content: center;
+    align-items: center;
+}
+/* .modalP{
+    text-align: center;
+} */
+.confirmBut{
+    display: flex;  
+    margin-top: 40px;
+    border: none;
+    font-size: 18px;
+    color: #174348;
+    background: #FFFFFF;  
+
+}
+.modalBut{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.modalfull{
+    display:flex ;
+    flex-direction: column;
+    width: 296px;
+    height: 96px;    
+}

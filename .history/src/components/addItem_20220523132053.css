@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.addbut{
+    background-color: #008594;
+    color: #FFFFFF;
+    width: 100px;
+    height: 52px;
+    margin-top: 20px;
+   padding-right: 24px;
+    border-radius: 4px;
+ 
+}
+#formDiv{
+    display: flex;
+    justify-content: row;
+    align-items: center;
+    height: 52px;
+    
+
+}
+#inputText{
+    position: center;
+    width: 954px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #FFCD04;
+    outline: none;
+    height: 52px;
+    margin-right: 24px;
+    border-radius: 4px;  
+ 
+   
+}
+.taskLabel{
+    color: #174348;
+    font-size: 18px;
+}
+#inputText:hover{
+    border: 1px solid rgb(90, 10, 90)
+}
+input::placeholder {
+    color: #DFDFDF;
+   
+  }
+.taskLabel{
+   
+    float: left;
+
+}
+.formTask{
+    width: 954px;
+}

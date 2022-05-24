@@ -1,0 +1,22 @@
+.backdrop{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: rgb(0, 0, 0, 0.4);
+}
+.modal{
+    padding: 1rem;
+    background: #FFFFFF;
+    margin-top: 3rem;
+    position: absolute;
+    left: 50%;
+    top: 25%;
+    transform: translate(-50%, 0);
+    color: #008594;
+    font-size: 18px;
+}
+button{
+    
+}

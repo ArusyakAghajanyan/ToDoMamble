@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.addbut{
+    background-color: #008594;
+    color: #FFFFFF;
+}
+#inputText{
+    position: center;
+    width: 954px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #FFCD04;
+   
+}
+#inputText:hover{
+    border: 1px solid rgb(90, 10, 90)
+}
+.taskLabel{
+    padding: 15px 100px 200px 5px;
+
+
+}

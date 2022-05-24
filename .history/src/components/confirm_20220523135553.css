@@ -1,0 +1,46 @@
+.backdrop{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.25);
+}
+.modal{
+   display: flex;
+    width: 400px;
+    height: 200px;
+    padding: 1rem;
+    background: #FFFFFF;
+    margin-top: 3rem;
+    position: absolute;
+    left: 50%;
+    top: 25%;
+    transform: translate(-50%, 0);
+    color: #008594;
+    font-size: 18px;
+}
+.modalP{
+    text-align: center;
+}
+.modalBut{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 40px;    
+
+}
+button{
+    background: #FFFFFF; 
+    border: none;
+    font-size: 18px;
+    color: #174348;
+}
+.modalfull{
+    display:f ;
+    width: 296px;
+    height: 96px;
+    justify-content: center;
+    align-items: center;
+}

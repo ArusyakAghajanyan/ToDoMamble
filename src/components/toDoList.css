@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ body{
+     background-color:  #E5E5E5;
+ }
+ 
+ .listText{
+margin-top: 192px;
+
+ }
+.firstP{
+ color: #ACACAC;
+font-size: 24px;
+letter-spacing: 0.2px;
+}
+.secondP{
+    color: #666666;
+font-size: 36px;
+letter-spacing: 0.002em;
+
+}
