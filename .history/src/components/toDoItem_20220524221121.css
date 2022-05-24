@@ -1,9 +1,8 @@
 
 .todoitem{
    width: 954px;
-   display: flex;
-   justify-content: space-between;
-   margin-left: 80px;
+   /* display: flex; */
+  
    align-items: center;
    justify-items: center;
    white-space: pre-line;
@@ -16,10 +15,10 @@
    border-bottom: 1px solid #e6e6e6;
  }
  
- .todoitem label {
+ /* .todoitem label {
 
  justify-content: center;
- } 
+ } */
  
  .todoitem label input {
    height: 15px;
@@ -38,9 +37,7 @@
    font-size: 16px;
  }
 
- input[type="checkbox"]:checked {
-   background-color: red;
- }
+
 /* 
 #check{
    display: flex;

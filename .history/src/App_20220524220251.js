@@ -74,7 +74,7 @@ useEffect(() => {
       Hide completed      
       </label>
       </div>
-      <div className="addContainer">
+      <div className=\>
         <AddItem onAdd={(text)=>{
         setTodo([{
           id:Math.random(),

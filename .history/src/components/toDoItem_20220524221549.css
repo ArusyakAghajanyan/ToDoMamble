@@ -3,7 +3,7 @@
    width: 954px;
    display: flex;
    justify-content: space-between;
-   margin-left: 80px;
+  
    align-items: center;
    justify-items: center;
    white-space: pre-line;
@@ -38,9 +38,7 @@
    font-size: 16px;
  }
 
- input[type="checkbox"]:checked {
-   background-color: red;
- }
+
 /* 
 #check{
    display: flex;

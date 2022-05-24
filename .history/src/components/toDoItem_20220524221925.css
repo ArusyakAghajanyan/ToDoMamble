@@ -38,8 +38,8 @@
    font-size: 16px;
  }
 
- input[type="checkbox"]:checked {
-   background-color: red;
+ input[type="checkbox" i]{
+    back
  }
 /* 
 #check{

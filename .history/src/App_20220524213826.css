@@ -16,21 +16,11 @@
 }
 
 .checkContainer{
-display: flex;
+
 flex-direction: column;
-justify-content: center;
-text-align: center; 
-position: relative; 
+  
 
 }
 .checkmark{
   background-color: #E5E5E5;
-}
-.addContainer{
- 
-  
-}
-.filterDiv{
-  position: absolute;
-  left: 75%;
 }

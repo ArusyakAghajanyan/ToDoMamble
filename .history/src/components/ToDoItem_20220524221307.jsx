@@ -12,12 +12,8 @@ export default function ToDoItem({item,modalStatus,onChange}) {
                isCompleted:e.target.checked,
            })
            }}/>
-            {item.text}
-            
-           </label>  
-           <button className="todoitemDelete" onClick={() => {
-            modalStatus(true,item)
-            }}>x</button>        
+        
+           </label>          
         </div>
     )
 }

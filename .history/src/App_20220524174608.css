@@ -12,25 +12,14 @@
   padding-left: 15px;
   font-size: 18px;
   color: #000000;
-
 }
 
 .checkContainer{
 display: flex;
 flex-direction: column;
-justify-content: center;
-text-align: center; 
-position: relative; 
+  
 
 }
-.checkmark{
-  background-color: #E5E5E5;
-}
-.addContainer{
- 
+.hideDiv{
   
-}
-.filterDiv{
-  position: absolute;
-  left: 75%;
 }

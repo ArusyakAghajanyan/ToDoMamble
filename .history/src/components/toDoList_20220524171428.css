@@ -6,9 +6,6 @@
  .listText{
      display: flex;
 margin-top: 192px;
-justify-content: center;
-align-items: center;
-flex-direction: column;
 
  }
 .firstP{

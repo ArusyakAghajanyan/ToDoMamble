@@ -65,16 +65,8 @@ useEffect(() => {
   return (
     <div className="App">
     <div className="checkContainer">  
-  <div className="filterDiv">
-    <input id="filter" type="checkbox" onChange={(e)=>{
-      filter(e.target.checked)
-      }} />
-    
-      <label htmlFor="filter" className="chkbox">
-      Hide completed      
-      </label>
-      </div>
-      <div className="addContainer">
+  <div></div>
+      
         <AddItem onAdd={(text)=>{
         setTodo([{
           id:Math.random(),
@@ -83,7 +75,7 @@ useEffect(() => {
         },...todo])
       }}/>
       
-     
+      </div>
       <ToDoList  
       todo={filteredTodo.length > 0 ? todo.filter(td => !td.isCompleted):todo}
       modalStatus={modalStatus}
@@ -97,8 +89,6 @@ useEffect(() => {
       }}
       />
        { modal && <Confirm confirmDelete={confirmDelete} modalStatus={modalStatus}/>}
-    </div>
-    </div>
     </div>
   );
 }

@@ -14,10 +14,7 @@ export default function ToDoItem({item,modalStatus,onChange}) {
            }}/>
             {item.text}
             
-           </label>  
-           <button className="todoitemDelete" onClick={() => {
-            modalStatus(true,item)
-            }}>x</button>        
+           </label>          
         </div>
     )
 }

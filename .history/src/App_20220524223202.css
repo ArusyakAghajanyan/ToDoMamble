@@ -20,7 +20,7 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 text-align: center; 
-position: relative; 
+pos 
 
 }
 .checkmark{
@@ -29,8 +29,4 @@ position: relative;
 .addContainer{
  
   
-}
-.filterDiv{
-  position: absolute;
-  left: 75%;
 }

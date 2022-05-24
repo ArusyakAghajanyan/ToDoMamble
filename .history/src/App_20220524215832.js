@@ -74,7 +74,7 @@ useEffect(() => {
       Hide completed      
       </label>
       </div>
-      <div className="addContainer">
+      
         <AddItem onAdd={(text)=>{
         setTodo([{
           id:Math.random(),
@@ -97,8 +97,6 @@ useEffect(() => {
       }}
       />
        { modal && <Confirm confirmDelete={confirmDelete} modalStatus={modalStatus}/>}
-    </div>
-    </div>
     </div>
   );
 }
