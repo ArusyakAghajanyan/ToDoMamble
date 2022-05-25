@@ -1,0 +1,31 @@
+
+ body{
+     background-color:  #E5E5E5;
+ }
+
+ .listText{
+          display: flex;
+
+justify-content: center;
+align-items: center; 
+flex-direction: column;
+margin-top: 70px;
+
+ }
+.firstP{
+ color: #ACACAC;
+font-size: 24px;
+letter-spacing: 0.2px;
+}
+.secondP{
+    color: #666666;
+font-size: 36px;
+letter-spacing: 0.002em;
+
+}
+@media screen and (max-width: 500px){
+    .firstP{
+      margin: 195px 0 40px 0;
+
+    }
+  }

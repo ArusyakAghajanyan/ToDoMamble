@@ -1,0 +1,44 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  width: ;
+  Width
+1440px
+Height
+1034px
+}
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+
+}
+
+.chkbox{
+  padding-left: 15px;
+  font-size: 18px;
+  color: #000000;
+
+}
+
+.checkContainer{
+display: flex;
+flex-direction: column;
+
+ 
+
+}
+.checkmark{
+  background-color: #E5E5E5;
+}
+
+.filterDiv{
+  position: absolute;
+justify-content: flex-end;
+float: right;
+  
+}
