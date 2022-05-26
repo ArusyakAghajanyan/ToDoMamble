@@ -1,0 +1,86 @@
+
+.addbut {
+  background-color: #008594;
+  color: #ffffff;
+  font-size: 18px;
+  width: 100px;
+  height: 52px;
+  margin-top: 20px;
+  
+  border-radius: 4px;
+  text-align:center
+}
+#formDiv {
+  display: flex;
+ 
+  align-items: center;
+  height: 52px;
+  /* margin-left: 80px; */
+  
+}
+#inputText {
+  /* position: center; */
+  width: 954px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 1px solid #ffcd04;
+  outline: none;
+  height: 52px;
+  margin-right: 24px;
+  border-radius: 4px;
+}
+.taskLabel {
+  color: #174348;
+  font-size: 18px;
+}
+#inputText:hover {
+  border: 1px solid rgb(90, 10, 90);
+}
+input::placeholder {
+  color: #dfdfdf;
+  font-size: 18px;
+}
+/* .taskLabel {
+  float: left;
+} */
+.formTask {
+  width: 954px;
+}
+
+@media screen and (max-width: 600px){
+  #formDiv{
+    display: flex; 
+  align-items: center;
+  flex-direction: column;
+ 
+  }
+  .addbut{
+   
+    font-size: 16px;
+    width: 92px;
+    height: 44px;
+    margin-top: 0;
+    margin-left: 210px;
+    margin-bottom: 40px;
+    
+    text-align:center
+    
+
+  }
+ 
+  #inputText {
+    width: 327px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #ffcd04;
+    outline: none;
+    height: 44px;
+    margin-right: 24px;
+    border-radius: 4px;
+
+  }
+  #inputDiv{
+    display: flex;
+    flex-direction: column;
+  }
+}
